@@ -41,7 +41,7 @@ nav{
 
 /* slider section */
 .slides{
-    background-image: url(./images/bg.jpg), 
+    background-image: url(./images/bg.png), 
     linear-gradient(to bottom, rgba(31, 81, 255,0.2), rgba(93, 63, 211,0.4));
     background-blend-mode: overlay;
     background-size: cover;
