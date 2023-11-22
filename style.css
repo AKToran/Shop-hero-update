@@ -138,6 +138,12 @@ button{
     background-color: #fff;
     height: 60vh;
 }
+@media only screen and (max-width: 600px){
+    .left-top{
+        height: 350px;
+    }
+}
+
 .left-top img{
     width: 350px;
     padding: 15px;
@@ -172,7 +178,7 @@ button{
  /* *Browse by category section */
 
  .catagory{
-    height: 390px;
+    height: 420px;
     background-color: #fbfbfa;
     font-size: 18px;
     font-weight: 500;
@@ -180,16 +186,17 @@ button{
 .catagories{
     justify-content: center;
     text-align: center;
-    gap: 0px;
     cursor: pointer;
+    
 }
 .catagories div{
     padding-top: 30px;
+    height: 220px;
 }
 .cat-title{
     font-size: 50px;
-    padding-top: 40px;
-    padding-bottom:20px;
+    padding-top: 50px;
+    padding-bottom:10px;
     font-weight: 500;
 }
 .catagory button{
@@ -200,8 +207,71 @@ button{
 
 
 @media only screen and (max-width: 768px){
+    .catagory{
+        height: 870px;
+    }
     .cat-title{
         font-size: 30px;
+    }
+    .catagories div{
+        height: 220px;
+        width: 150px;
+        margin-top: 10px;
+    }
+}
+
+/* *cards section */
+.cards-title{
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 500px){
+    .cards-title{
+        font-size: 20px;
+    }
+}
+
+/* *11.11 sale section */
+.sale{
+    background-color: #958bd5;
+    height: auto;
+}
+
+.sale-txt{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.sale-txt h1{
+    font-size: 100px;
+}
+
+/* *footer section */
+
+.footer{
+    height: 400px;
+    background-color: #0e071b;
+}
+@media only screen and (max-width: 768px){
+    .footer{
+        height: auto;
+        text-align: center;
+    }
+    .footer-icon{
+        display: none;
+    }
+    .footicon{
+        padding: 20px;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .footicon{
+        display: none;
     }
 }
 
