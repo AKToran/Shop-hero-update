@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Authoriged Apple Store - Shop Hero</title>
+    <title>Authorized Apple Store - Shop Hero</title>
     <link rel="icon" href="./images/Group 2 - Copy.png">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- * nav bar section -->
-    <nav class="nav-div">
+    <section class="nav-div">
         <nav class="navbar navbar-expand-lg bg-body-primary">
             <div class="container-fluid">
               <div >
@@ -47,8 +47,142 @@
               </div>
             </div>
           </nav>
-    </nav>
+    </section>
     
+    <!-- * slider section -->
+    
+    <section class="slides pb-5"> 
+      <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="slide">
+                      <div class="left-side">
+                          <div class="texts">
+                              <p>Go Beyond Pro</p>
+                              <h1 class="title">IPhone <b>15 Pro Max</b></h1>
+                              <p>Sleek design, powerful performance, advanced camera, vibrant display, iOS ecosystem.</p>
+                          </div>
+                          <div class="buttons">
+                              <button>Shop Now</button>
+                          </div>
+                      </div>
+                      <div class="image1">
+                          <img class="img-fluid w-50" src="./images/Iphone Image.png" class="d-block w-100" alt="Iphone 15 Pro Max Photo">
+                      </div>
+                  </div>
+              
+              </div>
+              <!-- second slide -->
+              <div class="carousel-item">
+                  <div class="slide">
+                      <div class="left-side">
+                          <div class="texts text-2">
+                              <p>Go Far</p>
+                              <h1 class="title">IPhone <b>14 Pro</b></h1> 
+                              <p> Created to change everything for the better. For everyone.</p>
+                          </div>
+                          <div class="buttons">
+                              <button>Shop Now</button>
+                          </div>
+                      </div>
+                      <div class="image2">
+                          <img class="img-fluid w-75" src="./images/Iphone 14 pro 1-22.png" class="d-block w-50" alt="Iphone 14 Photo">
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+  </section>
+    
+    <!-- * display products section -->
+    <div class="display-items row">
+      <div class="left-pr col-sm-12 col-md-6 ">
+          <div class="left-top row">
+              <div class="col-4">
+                  <img src="./images/ipad.png" alt="ipad 9 image">
+              </div>
+              <div class="left-top-text col-6 m-3">
+                  <h1 class="title">IPad <b>9</b></h1>
+                  <p>Introducing the iPad 9, a sleek and powerful device that seamlessly blends performance and portability. Immerse yourself in stunning visuals on the vibrant display, powered by a lightning-fast processor. </p>
+              </div>
+          </div>
+
+          <div class="left-down row">
+              <div class="col-3">
+                  <img src="./images/hero__gnfk5g59t0qe_xlarge_2x 1.png" alt="Airpod Max photo">
+              </div>
+              <div class="col-8 p-5">
+                  <h1>Apple AirPods Max</h1>
+                  <p>Discover the ultimate audio experience with our cutting-edge headphones. Immerse yourself in crystal-clear sound, precision-engineered for every beat. </p>
+              </div>
+          </div>
+      </div>
+
+      <div class="right-pr row col-sm-12 col-md-6">
+          <div class="col-4 m-5">
+              <h1>MacBook <b>Air</b></h1>
+              <p>
+                  Unleash the extraordinary with the MacBook Air. Impossibly thin and feather-light, it redefines portability without compromising power. The M1 chip delivers blazing-fast performance, while the Retina display captivates with vibrant visuals. With all-day battery life and macOS innovations, the MacBook Air is your gateway to limitless creativity and productivity.</p>
+              <div class="button-Mac m-4">
+                  <button>Shop Now</button>
+              </div>
+          </div>
+          <div class="right-img img-fluid m-auto col-4">
+              <img src="./images/Group 6.png" alt="Macbook Air Photo">
+          </div>
+      </div>
+
+  </div>
+
+  <!-- *Browse by category section -->
+  <section class="catagory">
+    <div class="container">
+      <div class="row">
+        <h2 class="col-10 cat-title">Browse By Category:</h2>
+
+        <button class="text-secondary col-1">&lt;</button>
+        <button class="text-secondary col-1">></button>
+
+
+
+      </div>
+    <div class="catagories row">
+        <div class=" col-md-2 col-sm-6 bg-secondary-subtle rounded-5">
+            <i class="fa-solid fa-mobile-screen-button fa-7x" style="color: #000000;"></i>
+            <p>Phones</p>
+        </div>
+        <div class=" col-md-2 col-sm-6 bg-secondary-subtle rounded-5">
+            <img class="img-fluid m-auto w-75" src="./images/smartwatch_8139437.png" alt="smartwatch icon">
+            <p>Smart <br> Watches</p>
+        </div>
+        <div class=" col-md-2 col-sm-6 bg-secondary-subtle rounded-5">
+            <i class="fa-solid fa-7x fa-headphones"></i>
+            <p>Headphones</p>
+        </div>
+        <div class=" col-md-2 col-sm-6 bg-secondary-subtle rounded-5">
+            <i class="fa-solid fa-7x fa-gamepad"></i>
+            <p>Gaming <br> Consoles</p>
+        </div>
+        <div class=" col-md-2 col-sm-6 bg-secondary-subtle rounded-5">
+            <i class="fa-solid fa-7x fa-camera"></i>
+            <p>Cameras</p>
+        </div>
+        <div class="col-md-2 col-sm-6 bg-secondary-subtle rounded-5">
+            <img class="img-fluid m-auto w-75" src="./images/computer_3067260.png" alt="computer icon">
+            <p>Computers</p>
+        </div>
+    </div>
+    </div>
+  </section>
+
 
 
     <!-- * script file -->
